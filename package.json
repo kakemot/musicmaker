@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-typescript": "^7.24.7"
+  },
+  "scripts": {
+    "build": "babel src --extensions \".ts\" --out-dir lib"
+  },
+  "dependencies": {
+    "p5": "^1.10.0"
+  }
+}

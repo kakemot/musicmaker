@@ -24,3 +24,11 @@ body {
     color: rgb(131, 229, 131);
 }
 
+.arranger {
+    background-color: black;
+}
+
+.instrument {
+    width: 60px;
+    background-color: gray;
+}

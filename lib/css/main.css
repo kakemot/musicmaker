@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  * {
+    box-sizing: inherit;
+  }
+
+.music-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    padding: 0.5rem;
+}
+
+.counter {
+    background-color: black;
+    margin: 2px;
+    color: rgb(131, 229, 131);
+}
+

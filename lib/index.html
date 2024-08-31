@@ -3,26 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Project</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      * {
-        box-sizing: inherit;
-      }
-    </style>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
+    <title>MusicMaker</title>
   </head>
   <body>
-    <audio></audio>
-    <div id="canvas"></div>
+    <header class="music-menu">
+      <button class="menu-item" onclick="StartPlaying()">
+        <i class="icon icon-play"></i>
+      </button>
+      <button class="menu-item" onclick="StopPlaying()">
+        <i class="icon icon-stop"></i>
+      </button>
+      <div id="menu-item" class="menu-item counter">
+        00:00
+      </div>
+
+      <div id="menu-item" class="menu-item counter">
+        120
+      </div>
+    </header>
+    <div id="pianoroll-canvas"></div>
     <script src="p5.min.js"></script>
     <script src="soundjs.min.js"></script>
     <script src="http://unpkg.com/tone"></script>
-    <script src="sketch.js"></script>
+    <script src="sketch.js" defer></script>
     <script src="grid.js"></script>
     <script src="piano.js"></script>
     <script src="note.js"></script>
